@@ -1,5 +1,4 @@
-import "./App.css";
-import { Navbar } from "./components";
+import { Home, Navbar } from "./components";
 import { styles } from "./utils/styles";
 function App() {
   return (
@@ -7,6 +6,11 @@ function App() {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.container}`}>
           <Navbar />
+        </div>
+      </div>
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.container}`}>
+          <Home />
         </div>
       </div>
     </div>
