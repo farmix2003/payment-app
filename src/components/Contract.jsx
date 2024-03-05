@@ -18,7 +18,7 @@ const Contract = () => {
         <Button styles={"mt-5"} />
       </div>
       <div className={`${layout.sectionImage}`}>
-        <img src={contract} alt="cards" className="w-[100%] h-[100%]" />
+        <img src={contract} alt="cards" className="w-[100 %] h-[100%]" />
       </div>
     </section>
   );
