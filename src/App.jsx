@@ -1,4 +1,4 @@
-import { Home, Navbar, Statistics } from "./components";
+import { Bills, Contract, Home, Navbar, Statistics } from "./components";
 import { styles } from "./utils/styles";
 function App() {
   return (
@@ -16,10 +16,12 @@ function App() {
           <Home />
         </div>
       </div>
-
+      {/* Stats */}
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.container}`}>
           <Statistics />
+          <Contract />
+          <Bills />
         </div>
       </div>
     </div>
