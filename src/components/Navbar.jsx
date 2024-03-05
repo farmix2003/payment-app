@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className={`w-full py-6 ${styles.flexBetween}`}>
       {/* Logo */}
-      <div className={`${styles.heading}`}>
+      <div className={`${styles.heading1}`}>
         <img
           src={logo}
           alt="log"
@@ -47,7 +47,7 @@ const Navbar = () => {
         <div
           className={`${
             !toggleNav ? "hidden" : "flex"
-          } p-6 absolute top-20 right-0 w-full sidebar bg-black-gradient`}
+          } p-6 absolute top-20 right-0 w-full z-10 sidebar bg-black-gradient`}
         >
           <ul className="list-none flex justify-center items-center flex-1 ">
             {navigationLinks.map((navigationLink, idx) => (
