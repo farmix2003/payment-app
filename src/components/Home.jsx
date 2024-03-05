@@ -39,7 +39,7 @@ const Home = () => {
               dolores! Cum, sunt nemo!
             </p>
           </div>
-          <Button />
+          <Button styles={"mt-2"} />
           {/* Gradient Background */}
           <div className="blue-gradient absolute z-[0] w-[40%] h-[35%]" />
           <div className="pink-gradient absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40" />
