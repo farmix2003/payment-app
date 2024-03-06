@@ -1,4 +1,11 @@
-import { Bills, Contract, Home, Navbar, Statistics } from "./components";
+import {
+  Bills,
+  Business,
+  Contract,
+  Home,
+  Navbar,
+  Statistics,
+} from "./components";
 import { styles } from "./utils/styles";
 function App() {
   return (
@@ -22,6 +29,7 @@ function App() {
           <Statistics />
           <Contract />
           <Bills />
+          <Business />
         </div>
       </div>
     </div>
