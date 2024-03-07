@@ -30,7 +30,7 @@ const Navbar = () => {
              ${idx === navigationLinks.length - 1 ? "mr-0" : "mr-10"} `}
             onClick={() => setActive(navigationLink.id)}
           >
-            {navigationLink.title}
+            <a href={`#${navigationLink.id}`}>{navigationLink.title}</a>
           </li>
         ))}
       </ul>
@@ -64,7 +64,7 @@ const Navbar = () => {
                  ${idx === navigationLinks.length - 1 ? "mr-0" : "mr-10"} `}
                 onClick={() => setActive(navigationLink.id)}
               >
-                {navigationLink.title}
+                <a href={`#${navigationLink.id}`}>{navigationLink.title}</a>
               </li>
             ))}
           </ul>

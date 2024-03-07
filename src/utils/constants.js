@@ -1,4 +1,4 @@
-import { airbnb, binance, dollar, dropbox, send, shield, star } from "../assets"
+import { airbnb, binance, dollar, dropbox, facebook, instagram, send, shield, star, telegram } from "../assets"
 
 export const navigationLinks = [
     {
@@ -90,4 +90,63 @@ export const clients = [
         id: 'client4',
         logo: dropbox
     },
+]
+export const footerLinks = [
+    {
+        title: 'Community',
+        links: [
+            {
+                name: 'Help Center',
+                link: 'https://sqb.uz/uz/individuals/support/'
+            },
+            {
+                name: 'Information',
+                link: 'https://sqb.uz/uz/general-information/innformation-disclosure/'
+            },
+            {
+                name: 'Virtual Reception',
+                link: 'https://sqb.uz/uz/virtual-reception/'
+            },
+            {
+                name: 'Press Center',
+                link: 'https://sqb.uz/uz/press-center/'
+            },
+            {
+                name: 'Client Rights',
+                link: 'https://sqb.uz/uz/client-rights/'
+            }
+        ]
+    },
+    {
+        title: 'Useful Links',
+        links: [
+            {
+                name: 'About Us',
+                link: 'https://sqb.uz/uz/general-information/'
+            },
+            {
+                name: 'Open Data',
+                link: 'https://sqb.uz/uz/open-data/'
+            },
+            {
+                name: 'Anticorruption',
+                link: 'https://sqb.uz/uz/anticorruption/'
+            }
+        ]
+    },
+
+]
+export const socialLink = [
+    {
+        id: 1,
+        icon: telegram,
+    },
+    {
+        id: 2,
+        icon: facebook,
+    },
+    {
+        id: 3,
+        icon: instagram,
+    }
 ]

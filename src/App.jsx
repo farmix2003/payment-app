@@ -3,6 +3,7 @@ import {
   Business,
   CTA,
   Contract,
+  Footer,
   Home,
   Navbar,
   Statistics,
@@ -36,6 +37,7 @@ function App() {
           <Testimonials />
           <Clients />
           <CTA />
+          <Footer />
         </div>
       </div>
     </div>
