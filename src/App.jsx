@@ -1,10 +1,12 @@
 import {
   Bills,
   Business,
+  CTA,
   Contract,
   Home,
   Navbar,
   Statistics,
+  Testimonials,
 } from "./components";
 import { styles } from "./utils/styles";
 function App() {
@@ -30,6 +32,8 @@ function App() {
           <Contract />
           <Bills />
           <Business />
+          <Testimonials />
+          <CTA />
         </div>
       </div>
     </div>

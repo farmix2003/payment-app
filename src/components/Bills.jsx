@@ -34,8 +34,6 @@ const Bills = () => {
             alt="apple"
             className="w-[129px] h-[42px] object-cover mr-5 cursor-pointer"
           />
-          <div className="absolute z-[3] -left-1/2 w-[50%] h-[50%] rounded-full top-0 white-gradient " />
-          <div className=" pink-gradient absolute z-[1] rounded-full w-[50%] h-[55%] -left-1/2 bottom-0" />
         </div>
       </div>
     </section>

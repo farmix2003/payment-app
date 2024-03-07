@@ -74,7 +74,62 @@
   transition: all 0.5s ease-in-out;
 }
 
-.features-card:hover {
+.features-card:hover,
+.feedback-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+.bg_dark_gradient {
+  background: linear-gradient(
+    -168.39deg,
+    #fff -278%,
+    #6d6d6d -78%,
+    #11101d 70%
+  );
+  transition: 0.3s ease;
+  animation: animation 0.3s; /* Corrected animation syntax */
+}
+.feedback-card:last-child {
+  margin-right: 0;
+}
+@keyframes animation {
+  0% {
+    background: linear-gradient(
+      -168.39deg,
+      #fff -278%,
+      #6d6d6d -78%,
+      #11101d 70%
+    );
+  }
+  25% {
+    background: linear-gradient(to top, #fff -278%, #6d6d6d -78%, #11101d 100%);
+  }
+  50% {
+    background: linear-gradient(
+      168.3deg,
+      #fff -278%,
+      #6d6d6d -78%,
+      #11101d 100%
+    );
+  }
+  75% {
+    background: linear-gradient(
+      to bottom,
+      #fff -278%,
+      #6d6d6d -78%,
+      #11101d 100%
+    );
+  }
+  100% {
+    background: linear-gradient(
+      -168.39deg,
+      #fff -278%,
+      #6d6d6d -78%,
+      #11101d 70%
+    );
+  }
 }
