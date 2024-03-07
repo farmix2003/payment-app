@@ -8,6 +8,7 @@ import {
   Statistics,
   Testimonials,
 } from "./components";
+import Clients from "./components/Clients";
 import { styles } from "./utils/styles";
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Bills />
           <Business />
           <Testimonials />
+          <Clients />
           <CTA />
         </div>
       </div>

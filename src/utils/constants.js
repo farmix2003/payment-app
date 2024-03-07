@@ -1,4 +1,4 @@
-import { send, shield, star } from "../assets"
+import { airbnb, binance, dollar, dropbox, send, shield, star } from "../assets"
 
 export const navigationLinks = [
     {
@@ -71,5 +71,23 @@ export const feedbacks = [
         content: "It is usually people in money business, finance and international trade that are really rich",
         name: "Kenn Gallagher",
         title: 'Founder & Leader'
+    },
+]
+export const clients = [
+    {
+        id: 'client1',
+        logo: airbnb
+    },
+    {
+        id: 'client2',
+        logo: binance
+    },
+    {
+        id: 'client3',
+        logo: dollar
+    },
+    {
+        id: 'client4',
+        logo: dropbox
     },
 ]
